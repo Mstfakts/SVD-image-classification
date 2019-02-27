@@ -5,7 +5,13 @@ The aim of this project is classify the given hand-written digital numbers (only
 
 **Project Definition**
 
-We were given the set of handwritten 8 and 1 and wanted to classify test data by using SVD. 
+  We were given 200 pictures of handwritten 8 and 1 by the size of 16, 16. However, they are not like real picture, 
+each of them were flatten into the size of 1x256. Then, if we we need all the pictures, we are going to get a matrix size of 200x256 for
+each 8 and 1.
+  
+  In order to find basis of this all pictures (200x256) for 8 or 1, they will be factorized by using 'np.linalg.svd' function. Then, we 
+  will get three diffrent matrices (U, S, V). S represents a diagonal matrix that has a eigenvalues on its diagonal. V has a basis for the
+  those pictures (200x256) on its rows.
 
 The steps that are going to be followed like,
 
