@@ -3,12 +3,11 @@ Singular Value Decomposition for Image Classification
 
 The aim of this project is classify the given hand-written digital numbers (only 1 and 8) into two class.
 
-
-
-
 **Project Definition**
 
-We were given the set of handwritten 8 and 1 and wanted to classify test data by using SVD. The steps that are going to be followed like,
+We were given the set of handwritten 8 and 1 and wanted to classify test data by using SVD. 
+
+The steps that are going to be followed like,
 
 1- Upload the training dataset
 
@@ -23,3 +22,4 @@ We were given the set of handwritten 8 and 1 and wanted to classify test data by
 6- And classify the test dataset
 
 If you need more clarification, firstly try to comprehend the python-code, otherwise you can also email me.
+
